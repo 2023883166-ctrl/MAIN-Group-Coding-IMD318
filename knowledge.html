@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knowledge | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+ <img src="image/mome care.jpg" class="mome-logo">
+
+<!-- Main Content -->
+<div class="content">
+
+    <h1>Pregnancy Care Guide</h1>
+    <p>
+        This section provides important do’s and don’ts for pregnant women 
+        to ensure a healthy and safe pregnancy journey.
+    </p>
+
+    <!-- DO's Section -->
+    <section class="intro-box">
+        <h2>✅ DO's During Pregnancy</h2>
+
+        <ul class="tips">
+            <li>Eat a balanced diet with fruits, vegetables, and protein.</li>
+            <li>Drink plenty of water to stay hydrated.</li>
+            <li>Get enough sleep and rest daily.</li>
+            <li>Take prenatal vitamins as advised by doctors.</li>
+            <li>Exercise lightly such as walking or prenatal yoga.</li>
+            <li>Attend regular antenatal check-ups.</li>
+            <li>Practice good posture when sitting or standing.</li>
+            <li>Manage stress by listening to music or deep breathing.</li>
+            <li>Wear comfortable clothes and flat shoes.</li>
+            <li>Inform your doctor if you feel unusual pain.</li>
+        </ul>
+    </section>
+
+    <!-- DON'Ts Section -->
+    <section class="intro-box">
+        <h2>❌ DON'Ts During Pregnancy</h2>
+
+        <ul class="tips">
+            <li>Do not smoke or inhale second-hand smoke.</li>
+            <li>Avoid alcohol and caffeine intake.</li>
+            <li>Do not lift heavy objects.</li>
+            <li>Avoid raw food such as sushi and undercooked eggs.</li>
+            <li>Do not skip meals.</li>
+            <li>Avoid stressful situations.</li>
+            <li>Do not self-medicate without doctor's advice.</li>
+            <li>Avoid standing for long periods.</li>
+            <li>Do not consume junk food excessively.</li>
+            <li>Avoid hot baths and saunas.</li>
+        </ul>
+    </section>
+
+    <!-- Safety Tips -->
+    <section class="intro-box">
+        <h2>💡 Extra Safety Tips</h2>
+
+        <ul class="tips">
+            <li>Always wear seat belts when traveling.</li>
+            <li>Sleep on your left side for better blood flow.</li>
+            <li>Keep emergency contact numbers saved.</li>
+            <li>Monitor baby's movements daily.</li>
+            <li>Practice personal hygiene.</li>
+        </ul>
+    </section>
+
+</div>
+
+
+<footer>
+    <p>© 2026 Khairul Aqil Website. <br> All rights reserved.</p>
+</footer>
+
+</body>
+</html>

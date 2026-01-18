@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mommies Product | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+
+<div class="content">
+
+    <img src="image/mome care.jpg" class="mome-logo">
+    
+    <h1 style="text-align: center;">Mommies Product</h1>
+    <p style="border: 1px solid black; text-align: center; max-width: 1000px; margin: 20px auto; 
+    padding: 15px; background-color: beige; border-radius: 15px;">
+        Mome Care produces high-quality products specially designed for pregnant mothers, mothers in the confinement period, and women who are facing challenges in restoring their beauty and well-being after childbirth. Our products are trusted by many, as they have received approval from the Ministry of Health (KKM), ensuring confidence and credibility among mothers. <br> For those who may still have doubts, our brand has grown from a single product to four products today, an achievement made possible by positive testimonials from our users, proven effective over the past three years. <br> Every parcel we deliver is not driven solely by profit, but by our sincere commitment to helping mothers recover both physically and mentally. <br> <b>You matter, mommies! 💗</b></p>
+
+    </div>
+
+    <div class="product-container">
+
+    <p class="product-box" style="border: 1px solid black; max-width: 200px; margin: 1px 10px; padding: 15px; border-radius: 15px; text-align: center;">
+
+    <img src="image/lotion_mommy.jpg" style=" width: 150px; height: 150px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+    <strong style="font-size: 18px;">DAILY LOTION</strong><br>
+
+    Suitable for use at any time whenever mommies feel their skin needs extra moisture. The ingredients in this lotion are specially formulated for sensitive and dry skin. Apply the lotion evenly onto the skin, then gently massage it to allow faster absorption.<br>
+
+    <strong>Ingredients:</strong> hydrating agents (Glycerin, Shea Butter, Almond Oil), emollients (Mineral Oil, Isopropyl Palmitate), antioxidants (Vitamin E/Tocopheryl Acetate), and fragrances.<br> <i>*200ml</i> <br>
+    <strong>Price:</strong> RM42.70
+    </p>
+
+    <p class="product-box" style="border: 1px solid black; max-width: 200px; margin: 1px 10px; padding: 15px; border-radius: 15px; text-align: center;">
+
+    <img src="image/oil_mommy.jpg" style=" width: 144px; height: 160px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+    <strong style="font-size: 18px;">BODY OIL</strong><br>
+
+    Enriched with gentle and safe natural ingredients, this body oil is suitable for light massage to help improve blood circulation, relieve muscle aches, and provide comfort to the mother’s body. Its lightweight texture absorbs easily without leaving a greasy feel, making it suitable for daily use throughout the confinement period. <br>
+
+    <strong>Ingredients:</strong> Coconut, Olive, Rice Bran, Tamanu (Calophyllum Tacamahaca), and Grape Seed, plus beneficial extracts (Rice Germ, Gardenia, Schisandra, Turmeric) and added Rosehip Oil, Squalane, Calendula Oil, Rosemary Oil, and Lavender for fragrance.<br> <i>*30ml</i> <br>
+    <strong>Price:</strong> RM45.90
+    </p>
+
+    <p class="product-box" style="border: 1px solid black; max-width: 200px; margin: 1px 10px; padding: 15px; border-radius: 15px; text-align: center;">
+
+    <img src="image/vitamin_mommy.jpg" style=" width: 145px; height: 140px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+    <strong style="font-size: 18px;">OMEGA-3 VITAMIN</strong><br>
+
+    Enriched with DHA and EPA, this supplement helps support brain function and general health while complementing a balanced postnatal diet. Made with high-quality fish oil and carefully processed to minimize odor and discomfort, it is gentle on the stomach and easy to consume.<br>
+
+    <strong>Ingredients:</strong>Eicosapentaenoic Acid, Docosahexaenoic Acid, and Flavorings- sweet orange oil<br> <i>*55 capsule</i> <br>
+    <strong>Price:</strong> RM40
+    </p>
+
+    <p class="product-box" style="border: 1px solid black; max-width: 200px; margin: 1px 10px; padding: 15px; border-radius: 15px; text-align: center;">
+
+    <img src="image/bath gel_mommy.jpg" style=" width: 130px; height: 145px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+    <strong style="font-size: 18px;">BATH GEL</strong><br>
+
+    Infused with delicate rose particles, it helps cleanse the skin gently while offering a calming floral touch that enhances relaxation after a long day. <br> Its mild, skin-friendly formula produces a soft lather that cleanses without stripping away natural moisture, making it suitable for sensitive skin after childbirth. The presence of rose particles adds a luxurious feel, leaving the skin feeling fresh, smooth, and comforted.<br>
+
+    <strong>Ingredients:</strong>Aqua (Water), Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Sodium Chloride, PEG-7 Glyceryl Cocoate, Rosa Damascena Flower Extract<br> <i>*250ml</i> <br>
+    <strong>Price:</strong> RM25.90
+    </p>
+
+    <p class="product-box" style="border: 1px solid black; max-width: 200px; margin: 1px 10px; padding: 15px; border-radius: 15px; text-align: center;">
+
+    <img src="image/herbpill_mommy.jpg" style=" width: 145px; height: 145px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+    <strong style="font-size: 18px;">HERBS PILL</strong><br>
+
+    It is designed to complement a balanced postnatal routine, helping mothers feel more comfortable and supported as the body recovers naturally after childbirth. Carefully prepared with commonly used herbs in traditional postnatal care, this supplement is suitable for daily consumption during confinement. Its easy-to-take pill form makes it convenient for busy mothers while maintaining the essence of traditional wellness practices passed down through generations.<br>
+
+    <strong>Ingredients:</strong>Pimpinella Anisum (Anise) Seed Powder, Nigella Sativa (Black Seed) Powder, Tamarindus Indica Fruit Powder, Honey Powder, Rice Flour (Oryza Sativa), Magnesium Stearate (Vegetable Source – Anti-caking Agent)<br> <i>*30 capsule</i><br>
+    <strong>Price:</strong> RM70
+    </p>
+</div>
+
+    <div class="social-buttons">
+        <h3>Available on Shopee</h3>
+            <a href="https://my.shp.ee/q3xzVwE" target="_blank">
+                <img src="image/shopee.jpg" alt="Instagram" class="icon">
+                <span class="username">@mome_care</span>
+            </a>
+    </div>
+
+    <footer>
+    <p>© 2026 Puteri Nur Kafyilah Website. <br> All rights reserved.</p>
+</footer>
+
+</body>
+</html>

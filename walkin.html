@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Walk-In Services | My Website</title>
+    <link rel="stylesheet" href="style.css">
+
+     <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #fad4d4;
+            color: black;
+        }
+
+         header {
+            background-color: #c9b89c;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .mome-logo {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ccc;
+        }
+
+        .page-title {
+            font-size: 42px;
+        }
+
+        .introduction-container {
+            display: flex;
+            justify-content: center;
+            padding: 40px 5%;
+        }
+
+        .introduction-box {
+            background-color: #c9b89c;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            overflow: hidden;
+            animation: fadeSlide 1.2s ease;
+        }
+
+        .introduction-box img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .introduction-box h3 {
+            margin: 20px 0 10px;
+        }
+
+        .introduction-box p {
+            padding: 0 30px 30px;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+       .section {
+            padding: 50px 10%;
+            animation: fadeSlide 1.2s ease;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .service-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff6ef;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .service-table th {
+            background-color: #c9b89c;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .service-table td {
+            padding: 15px;
+            vertical-align: middle;
+        }
+
+        .service-table tr:nth-child(even) {
+            background-color: #f4e7d3;
+        }
+
+        .service-img {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.3s;
+        }
+
+        .service-img:hover {
+            transform: scale(1.05);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #c9b89c;
+            color: black;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #fad4d4;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+ <img src="image/mome care.jpg" alt="Mome Care Logo" class="mome-logo">
+
+    <header>
+    <h1 class="page-title">Walk-In Services</h1>
+    </header>
+
+    <div class="introduction-container">
+    <div class="introduction-box">
+        <img src="image/walkin.jpg" alt="Walk-In Services">
+        <h3>Walk-In Services</h3>
+        <p>
+            Our Walk-In Services allow mothers to visit Mome’ Care and enjoy professional massage
+            therapy in a calm, private, and comfortable environment. Each treatment is designed to
+            promote relaxation, recovery, and overall well-being.
+        </p>
+    </div>
+    </div>
+
+    <div class="section">
+    <h2>Massage Therapy Services</h2>
+
+    <table class="service-table">
+        <tr>
+            <th>Image</th>
+            <th>Massage Type</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="image/traditional.jpg" alt="Traditional Massage" class="service-img">
+            </td>
+            <td><strong>Traditional Massage</strong></td>
+            <td>
+                A classic postnatal massage using traditional techniques to improve blood circulation,
+                reduce body tension, and support faster recovery after childbirth.
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="image/relaxing.jpg" alt="Relaxing Massage" class="service-img">
+            </td>
+            <td><strong>Relaxing Massage</strong></td>
+            <td>
+                A gentle and soothing massage focused on stress relief, relaxation, and mental calm,
+                perfect for mothers seeking comfort and emotional balance.
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="image/therapeutic.jpg" alt="Therapeutic Massage" class="service-img">
+            </td>
+            <td><strong>Therapeutic Massage</strong></td>
+            <td>
+                A targeted massage treatment designed to relieve muscle pain, improve mobility,
+                and address specific postnatal discomfort or body tension.
+            </td>
+        </tr>
+
+    </table>
+    </div>
+
+    <footer>
+    <p>© 2026 Nur Safiah Website. <br> All rights reserved.</p>
+</footer>
+
+</body>
+</html>

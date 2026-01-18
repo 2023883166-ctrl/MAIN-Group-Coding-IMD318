@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Babies Product | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+<div class="content">
+    
+  <img src="image/mome care.jpg" class="mome-logo">
+
+    <h1 style="text-align: center;">Babies Product</h1>
+    <p style="border: 1px solid black; text-align: center; max-width: 1000px; margin: 20px auto; 
+    padding: 15px; background-color: beige; border-radius: 15px;">Mome Care creates high-quality products specially designed to support the health and well-being of babies and their mothers. Our carefully formulated range helps ensure that newborns get the best start in life while supporting mothers during pregnancy, confinement, and postnatal recovery. <br> Trusted by many, our products are approved by the Ministry of Health (KKM), giving parents confidence and peace of mind. From a single product, our brand has grown to four trusted products today, an achievement made possible by positive testimonials from parents who have experienced real results over the past three years. <br> Every parcel we send reflects our dedication not just to business, but to nurturing babies and helping mothers care for their little ones with love, care, and confidence.</p>
+
+    <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+    <div class="product-box" style="border: 1px solid black; text-align: center; width: 300px; padding: 15px; border-radius: 15px; font-size: 20px;">
+
+        <b>Powder</b><br><br>
+
+        <img src="image/powder_baby.jpg" style="width: 180px; height: 180px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+        <p style="font-size: 16px;">For the comfort of the baby and long-lasting freshness, baby powder is also needed as part of the daily routine after bathing. The baby powder we created contains no harmful chemicals, making it safe for infants to use.<br><br>
+            <b>Ingredients:</b> Cornstarch & Kernel Extract<br>
+            <i>*200 gram</i><br>
+            <b>Price:</b> RM 15.60
+        </p>
+    </div>
+
+    <div class="product-box" style="border: 1px solid black; text-align: center; width: 300px;
+        padding: 15px; border-radius: 15px; font-size: 20px;">
+
+        <b>Bath Gel</b><br><br>
+
+        <img src="image/gel_baby.jpg" style="width: 180px; height: 180px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+        <p style="font-size: 16px;">A bath product specially created with ingredients that are gentle on babies, providing a soft feel on the skin while helping to maintain the baby’s moisture throughout the day. Our bath product uses ingredients that are approved by dermatologists.<br><br>
+            <i>*250 ml</i><br>
+            <b>Price:</b> RM 27.80
+        </p>
+    </div>
+
+    <div class="product-box" style="border: 1px solid black; text-align: center; width: 300px;
+        padding: 15px; border-radius: 15px; font-size: 20px;">
+
+        <b>Laundry Soap</b><br><br>
+
+        <img src="image/laundry_baby.jpg" style="width: 180px; height: 180px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+        <p style="font-size: 16px;">A laundry soap specially created to wash baby clothes without containing any ingredients that may cause skin irritation to a baby’s sensitive skin. This soap has a gentle fragrance that does not irritate the sense of smell, and the scent lasts throughout the day on the clothes.<br><br>
+            <i>*1500 gram</i><br>
+            <b>Price:</b> RM 37.00
+        </p>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 30px;">
+
+    <div class="product-box" style="border: 1px solid black; text-align: center; width: 400px;
+        padding: 15px; border-radius: 15px; font-size: 20px;">
+
+        <b>Pacifier</b><br><br>
+
+        <img src="image/pacifier_baby.jpg" style="width: 180px; height: 180px; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+        <p style="font-size: 16px;">>Our silicone bib is adjustable to fit comfortably around the baby’s neck, allowing it to be worn according to the wearer’s comfort without causing any feeling of suffocation. The material used is made from high-quality silicone to ensure that it does not cause itching or discomfort to the wearer.<br><br>
+            <b>Price:</b> RM 24.90
+        </p>
+    </div>
+
+    <div class="product-box" style="border: 1px solid black; text-align: center; width: 400px; padding: 15px; border-radius: 15px; font-size: 20px;">
+
+        <b>Silicone Bib</b><br><br>
+
+        <img src="image/bib_baby.jpg"
+             style="width: 180px; height: 180px; border-radius: 50%;
+                    display: block; margin: 0 auto 15px;">
+
+        <p style="font-size: 16px;">Our silicone bib is adjustable to fit comfortably around the baby’s neck, allowing it to be worn according to the wearer’s comfort without causing any feeling of suffocation. The material used is made from high-quality silicone to ensure that it does not cause itching or discomfort to the wearer.<br><br>
+            <b>Price:</b> RM 28.60
+        </p>
+    </div>
+</div>
+
+        <div class="social-buttons">
+        <h3>Available on Shopee</h3>
+            <a href="https://my.shp.ee/q3xzVwE" target="_blank">
+                <img src="image/shopee.jpg" alt="Instagram" class="icon">
+                <span class="username">@mome_care</span>
+            </a>
+    </div>
+
+<footer>
+    <p>© 2026 Puteri Nur Kafyilah. <br> All rights reserved.</p>
+</footer>
+
+</body>
+</html>

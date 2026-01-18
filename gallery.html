@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+
+ <img src="image/mome care.jpg" class="mome-logo">
+
+<!-- Main Content -->
+<div class="content">
+
+<h1>Gallery</h1>
+
+<div class="gallery-grid">
+
+<!-- CARD 1 -->
+<div class="g-card">
+    <div class="g-slider">
+        <img src="image/gallery7.jpeg">
+        <img src="image/gallery8.jpeg">
+    </div>
+</div>
+
+<!-- CARD 2 -->
+<div class="g-card">
+    <div class="g-slider">
+        <img src="image/gallery19.jpg">
+        <img src="image/gallery10.jpeg">
+    </div>
+</div>
+
+<!-- CARD 4 -->
+<div class="g-card">
+    <div class="g-slider">
+        <img src="image/gallery11.jpeg">
+        <img src="image/gallery12.jpeg">
+    </div>
+</div>
+
+<!-- CARD 6 -->
+<div class="g-card">
+    <div class="g-slider">
+        <img src="image/gallery13.jpg">
+        <img src="image/gallery14.jpg">
+    </div>
+</div>
+
+<!-- CARD 7 -->
+<div class="g-card">
+    <div class="g-slider">
+        <img src="image/gallery15.jpg">
+        <img src="image/gallery16.jpg">
+    </div>
+</div>
+
+<!-- CARD 9 -->
+<div class="g-card">
+    <div class="g-slider">
+        <img src="image/gallery17.jpeg">
+        <img src="image/gallery18.jpg">
+    </div>
+</div>
+
+</div>
+
+<h1>Video Gallery</h1>
+
+<div class="video-grid">
+
+    <div class="v-card">
+        <video controls>
+            <source src="video/video1.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+
+<footer>
+    <p>© 2026 Khairul Aqil Website. <br> All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    h1{
+        margin-top: 80px;
+    }
+</style>
+
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+
+<img src="image/mome care.jpg" class="mome-logo">
+
+<div class="mome-care-branding">
+    <h1>MOME’ CARE</h1>
+</div>
+
+<section>
+    <h2>Vision & Mission</h2>
+    <div class="vm-container">
+        <div class="vm-box">
+            <h3>Our Vision</h3>
+            <p>
+                To be a trusted and leading postnatal care provider that delivers comprehensive, professional, and compassionate care for mothers and newborns, ensuring a comfortable, safe, and well-supported confinement journey.
+            </p>
+        </div>
+
+        <div class="vm-box">
+            <h3>Our Mission</h3>
+            <p>
+                Providing attentive and comprehensive care to postpartum mothers and newborns through continuous support, gentle postnatal treatments, and the use of carefully formulated products, delivered conveniently via home services as well as at the Mome’ Care center.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>About Mome’ Care</h2>
+    <div class="intro-box">
+        <p>
+                Mome’ Care is a professional postnatal care service dedicated to supporting mothers throughout their confinement period while providing gentle and attentive care for newborn babies. We understand that the postnatal phase is a crucial time for recovery, adjustment, and bonding, which is why our services focus on ensuring comfort, safety, and emotional well-being for both mother and baby. Our experienced team provides personalized care that meets the unique needs of every family.
+            </p>
+            <p>
+                Our services include comprehensive postnatal care management, therapeutic massage for mothers, newborn baby care, and daily assistance during the confinement period. In addition to our services, Mome’ Care offers its own range of specially formulated products such as baby oil, baby powder, bengkung for mothers, herbal bathing solutions, and nourishing lotions to support recovery and overall well-being. With both door-to-door services and walk-in sessions at our centre, Mome’ Care is committed to delivering high-quality, reliable, and compassionate postnatal care.
+            </p>
+            
+            <p>In addition, the Mome’ Care team provides comprehensive postnatal services for mothers, including health monitoring, physical recovery support, basic nutritional guidance, and emotional care throughout the confinement period. For newborns, our team delivers safe and attentive daily care such as feeding support, hygiene and bathing assistance, sleep and comfort management, and early development observation. All services are carried out with gentleness, professionalism, and compassion to ensure both mother and baby feel comfortable, supported, and well cared for at all times.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Organization Chart</h2>
+    <div class="org-container">
+        <div class="org-card">
+            <img src="image/puteri.jpg">
+            <h4>FOUNDER</h4>
+            <p class="role">Oversees operations and ensures service quality</p>
+        </div>
+
+        <div class="org-card">
+            <img src="image/safiah.jpg">
+            <h4>POSTNATAL THERAPIST</h4>
+            <p class="role">Provides massage and recovery treatments</p>
+        </div>
+
+        <div class="org-card">
+            <img src="image/azira.jpg">
+            <h4>CARE ASSISTANT</h4>
+            <p class="role">Assists mothers with daily postnatal care needs</p>
+        </div>
+
+        <div class="org-card">
+            <img src="image/aqil.jpg">
+            <h4>ADMIN</h4>
+            <p class="role">Manages bookings and customer enquiries</p>
+        </div>
+    </div>
+
+    <div class="map-section">
+        <h3 class="map-title">Location of Mome’ Care</h3>
+        <p class="map-desc">
+            Our Mome’ Care centre is conveniently located near Lotus’s Kota Bharu,
+            making it easily accessible for mothers and families seeking professional
+            postnatal care services.
+        </p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.121286754913!2d102.22968071076295!3d6.1143700277565385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6af94b3c4abf1%3A0x555c285e99dd533a!2sLotus%CA%BCs%20Kota%20Bharu!5e0!3m2!1sms!2smy!4v1768205841327!5m2!1sms!2smy"
+                width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+    </div>
+
+    <div class="social-buttons">
+        <h3>Contact Us</h3>
+
+        <a href="https://www.instagram.com/mome.care" target="_blank">
+            <img src="image/instagram.jpg" class="icon">
+            <span class="username">@mome'.care</span>
+        </a>
+
+        <a href="https://www.tiktok.com/@momecare_official" target="_blank">
+            <img src="image/tiktok.jpg" class="icon">
+            <span class="username">@mome'_care</span>
+        </a>
+
+        <a href="https://www.facebook.com/share/17gZTqxytB/" target="_blank">
+            <img src="image/facebook.jpg" class="icon">
+            <span class="username">@Mome'CareOfficial</span>
+        </a>
+
+        <a>
+            <img src="image/contact.jpg" class="icon">
+            <span class="username">+60119032890</span>
+        </a>
+
+        <a>
+            <img src="image/email.jpg" class="icon">
+            <span class="username">mome'careofficial71@gmail.com</span>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nur Fazreen Azira Website. <br> All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+ <img src="image/mome care.jpg" class="mome-logo">
+
+<!-- Hero / Banner -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Welcome to Our Website</h1>
+        <p>Your journey starts here — discover more below.</p>
+    </div>
+</section>
+
+<!-- Quick Links -->
+<section class="b-links">
+    <h2>Explore Our Sections</h2>
+
+    <div class="grids">
+
+        <a href="about.html" class="cards">
+            <img src="image/gallery1.jpg">
+            <div class="overlay">
+                <h3>About Us</h3>
+            </div>
+        </a>
+
+        <a href="walkin.html" class="cards">
+            <img src="image/gallery2.jpg">
+            <div class="overlay">
+                <h3>Services</h3>
+            </div>
+        </a>
+
+        <a href="mommies.html" class="cards">
+            <img src="image/gallery3.jpg">
+            <div class="overlay">
+                <h3>Products</h3>
+            </div>
+        </a>
+
+        <a href="gallery.html" class="cards">
+            <img src="image/gallery4.jpg">
+            <div class="overlay">
+                <h3>Gallery</h3>
+            </div>
+        </a>
+
+        <a href="knowledge.html" class="cards">
+            <img src="image/gallery5.jpg">
+            <div class="overlay">
+                <h3>Knowledge</h3>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+
+<!-- Main Content Intro -->
+<section class="intro">
+    <h2>About Our Site</h2>
+    <p>
+        We provide quality services and products tailored for moms and babies.
+        Browse our sections using the menu on the left.
+    </p>
+</section>
+
+<!-- Social Buttons -->
+<div class="social-buttons">
+    <a href="https://www.facebook.com/share/17gZTqxytB/" target="_blank"><img src="image/facebook.jpg" class="icon"> Facebook</a>
+
+    <a href="https://www.instagram.com/mome.care" target="_blank"><img src="image/instagram.jpg" class="icon"> Instagram</a>
+
+    <a href="https://www.tiktok.com/@momecare_official" target="_blank"><img src="image/tiktok.jpg" class="icon"> TikTok</a>
+</div>
+
+<footer>
+    <p>© 2026 Khairul Aqil Website. <br> All rights reserved.</p>
+</footer>
+
+</body>
+</html>

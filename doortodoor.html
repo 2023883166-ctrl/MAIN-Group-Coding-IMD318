@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Door To Door | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="music-player">
+    <audio id="bg-music" src="audio/music.mp3"></audio>
+    <button onclick="toggleMusic()">🎵 Music</button>
+</div>
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("bg-music");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #fad4d4;
+            color: black;
+        }
+
+        header {
+            background-color: #c9b89c;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .mome-logo {
+            position: fixed;     
+            top: 20px;         
+            right: 20px;         
+            width: 90px;         
+            height: 90px;        
+            border-radius: 50%;  
+            object-fit: cover;   
+            border: 2px solid #ccc;        
+        }
+
+        .page-title {
+            font-size: 42px;
+        }
+
+        .introduction-container {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 5% 60px;   
+        }
+
+        .introduction-box {
+            background-color: #c9b89c;
+            border-radius: 15px;
+            text-align: center;
+            width: 1500px;
+            color: black;
+            overflow: hidden;
+            animation: fadeSlide 1.2s ease;
+            transition: transform 0.3s;
+        }
+
+        .introduction-container-box:hover {
+            transform: translateY(-8px);
+        }
+
+        .introduction-box img {
+            width: 100%;
+            height: 180px;       
+            object-fit: cover;
+        }
+
+        .introduction-box h3 {
+            margin: 15px 0 8px;
+        }
+
+        .introduction-box p {
+            padding: 0 20px 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .section {
+            padding: 50px 10%;
+            animation: fadeSlide 1.2s ease;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .service-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff6ef;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .service-table th {
+            background-color: #c9b89c;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .service-table td {
+            padding: 18px;
+            vertical-align: top;
+        }
+
+        .service-table tr:nth-child(even) {
+            background-color: #f4e7d3;
+        }
+
+        .service-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.3s;
+        }
+
+        .service-img:hover {
+            transform: scale(1.05);
+        }
+
+        .package-table {
+            width: 100%;
+            border-spacing: 0;
+            margin-top: 40px;
+            border-radius: 50px;
+        }
+
+        .package-table th {
+            background-color: #b8a078;
+            padding: 15px;
+        }
+
+        .package-table td {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #c9b89c;
+            color: black;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #fad4d4;
+        }
+
+
+    </style>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <div class="nav-item">
+        <span>Services ▾</span>
+        <div class="dropdown">
+            <a href="walkin.html">Walk-In Services</a>
+            <a href="doortodoor.html">Door To Door Services</a>
+        </div>
+    </div>
+
+    <div class="nav-item">
+        <span>Product ▾</span>
+        <div class="dropdown">
+            <a href="mommies.html">Mommies</a>
+            <a href="babies.html">Babies</a>
+        </div>
+    </div>
+
+    <a href="knowledge.html">Knowledge</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+
+<img src="image/mome care.jpg" alt="Mome Care Logo" class="mome-logo">
+
+    <header>
+        <h1 class="page-title">Door-To-Door Services</h1>
+    </header>
+
+    <div class="section">
+    <p style="text-align:center; font-size:18px; max-width:850px; margin:auto;">
+        Our Door-To-Door Services provide complete postnatal care for mothers and newborns
+        in the comfort of your home. Mome’ Care ensures gentle, professional, and compassionate
+        support throughout the confinement period.
+    </p>
+    </div>
+
+    <div class="introduction-container">
+        <div class="introduction-box">
+            <img src="image/doortodoor.jpg" alt="Door-To-Door Services">
+            <h3>Door-To-Door Services</h3>
+            <p>
+                Our professional team comes to your home to provide comprehensive postnatal care for mothers and newborns. Services include health monitoring, recovery support, baby care, and personalized guidance—all delivered with comfort and safety in mind.
+            </p>
+        </div>
+
+    <div class="section"> 
+        <h2>Services Provided</h2>
+
+    <table class="service-table">
+    <tr>
+        <th>Image</th>
+        <th>Service</th>
+        <th>Description</th>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <img src="image/massage2.jpg" alt="Mother Care" class="service-img">
+        </td>
+        <td><strong>Postnatal Care for Mothers</strong></td>
+        <td>
+        Includes health monitoring, recovery assistance, postnatal massage, bengkung wrapping,
+        herbal bathing, and emotional care to support physical and emotional recovery.
+        </td>
+    </tr>
+
+
+    <tr>
+        <td align="center">
+        <img src="image/newborn.jpg" alt="Baby Care" class="service-img">
+        </td>
+        <td><strong>Newborn Baby Care</strong></td>
+        <td>
+        Gentle daily baby care such as bathing, hygiene assistance, feeding support,
+        sleep routine management, and early development observation.
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+        <img src="image/confinement.jpg" alt="Home Assistance" class="service-img">
+    </td>
+    <td><strong>Daily Home Assistance</strong></td>
+    <td>
+        Personalized daily support to help mothers manage confinement routines
+        comfortably while ensuring a safe and calm environment for the baby.
+    </td>
+    </tr>
+
+    </table>
+    </div>
+
+    <div class="section">
+        <h2>Door-To-Door Care Packages</h2>
+
+    <table class="package-table">
+    <tr>
+        <th>Package</th>
+        <th>Duration</th>
+        <th>Price Range</th>
+        <th>Includes</th>
+        
+    </tr>
+
+    <tr>
+        <td>Basic Care</td>
+        <td>3 Days</td>
+        <td>RM300 - RM450</td>
+        <td>Basic mother & baby care, daily monitoring</td>
+    </tr>
+
+    <tr>
+        <td>Standard Care</td>
+        <td>7 Days</td>
+        <td>RM500 - RM850</td>
+        <td>Massage, baby care, recovery & assistance</td>
+    </tr>
+
+    <tr>
+        <td>Premium Care</td>
+        <td>14 Days</td>
+        <td>RM 1200 - RM2500</td>
+        <td>Complete postnatal support for mother & baby</td>
+
+    </table>
+    </div>
+
+    <footer>
+    <p>© 2026 Nur Safiah Website. <br> All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
