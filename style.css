@@ -4,7 +4,6 @@ body {
     background-color: #fad4d4;
 }
 
-/* Top Right Navbar */
 .navbar {
     position: fixed;
     top: 20px;
@@ -39,7 +38,6 @@ body {
     border-radius: 20px;
 }
 
-/* Dropdown */
 .nav-item {
     position: relative;
 }
@@ -71,7 +69,6 @@ body {
     padding: 40px;
 }
 
-/* Product submenu */
 .menu-item {
     position: relative;
 }
@@ -95,15 +92,13 @@ body {
     background-color: #eb6a90;
 }
 
-/* Disable main menu links (Services & Product) */
 .services-link,
 .product-link {
-    pointer-events: none;   /* disables click */
+    pointer-events: none;   
     cursor: default;
-    color: #bbb;            /* optional: greyed look */
+    color: #bbb;           
 }
 
-/* Keep submenu clickable */
 .submenu a {
     pointer-events: auto;
     color: #fff;
@@ -325,7 +320,6 @@ text-align: center;
     color: #333;
 }
 
-/* Hero Banner */
 .hero {
     background: url('image/slides1.jfif') center/cover no-repeat;
     padding: 120px 10%;
@@ -343,7 +337,6 @@ text-align: center;
     font-size: 18px;
 }
 
-/* Quick Links */
 .quick-links {
     background: #fff;
     text-align: center;
@@ -375,7 +368,6 @@ text-align: center;
     background: #d94e78;
 }
 
-/* Content Intro */
 .intro {
     padding: 40px 10%;
     background: rgba(160, 160, 160, 1);
@@ -387,7 +379,6 @@ text-align: center;
     margin-bottom: 10px;
 }
 
-/* Quick links section */
 .b-links {
     padding: 60px 10%;
     background: #fff;
@@ -399,14 +390,12 @@ text-align: center;
     margin-bottom: 30px;
 }
 
-/* Grid layout */
 .grids {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 25px;
 }
 
-/* Card */
 .cards {
     position: relative;
     overflow: hidden;
@@ -414,7 +403,6 @@ text-align: center;
     height: 180px;
 }
 
-/* Image */
 .cards img {
     width: 100%;
     height: 100%;
@@ -422,7 +410,6 @@ text-align: center;
     transition: transform 0.4s ease;
 }
 
-/* Overlay */
 .overlay {
     position: absolute;
     inset: 0;
@@ -439,7 +426,6 @@ text-align: center;
     letter-spacing: 1px;
 }
 
-/* Hover effect */
 .cards:hover img {
     transform: scale(1.15);
 }
@@ -448,7 +434,6 @@ text-align: center;
     background: rgba(0,0,0,0.75);
 }
 
-/* Tips list */
 .tips {
     list-style: none;
     padding: 0;
@@ -463,13 +448,11 @@ text-align: center;
     transition: all 0.3s ease;
 }
 
-/* Hover effect */
 .tips li:hover {
     background: #c9b89c;
     transform: translateX(5px);
 }
 
-/* Gallery 3x3 grid */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -477,7 +460,6 @@ text-align: center;
     margin-top: 30px;
 }
 
-/* Card */
 .g-card {
     background: beige;
     border-radius: 15px;
@@ -603,3 +585,4 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+
